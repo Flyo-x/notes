@@ -14,7 +14,8 @@ module.exports = {
         ariaLabel: "分类",
         items: [
           { text: "目录", link: "/pages/menu/menu.md" },
-          { text: "Games101笔记", link: "/pages/games101/第一讲.md" },
+          { text: "Games101笔记", link: "/pages/games101/介绍.md" },
+          { text: "elementui源码阅读", link: "/pages/elementui/工具类说明.md" },
         ],
       },
     ],
@@ -25,6 +26,7 @@ module.exports = {
           collapsable: false, // 可选的, 默认值是 true,
           sidebarDepth: 1, // 可选的, 默认值是 1
           children: [
+            ["介绍.md", "介绍"],
             ["第一讲.md", "第一讲"],
             ["第二讲.md", "第二讲"],
             ["第五讲.md", "第五讲"],
@@ -45,6 +47,19 @@ module.exports = {
             ["第二十讲.md", "第二十讲"],
             ["第二十一讲.md", "第二十一讲"],
             ["第二十二讲.md", "第二十二讲"],
+          ],
+        },
+      ],
+      "/pages/elementui/": [
+        {
+          title: "element-ui", // 必要的
+          collapsable: false, // 可选的, 默认值是 true,
+          sidebarDepth: 1, // 可选的, 默认值是 1
+          children: [
+            ["目录结构", "目录结构"],
+            ["命令说明", "命令说明"],
+            ["工具类说明", "工具类说明"],
+            ["样式设计", "样式设计"],
           ],
         },
       ],
