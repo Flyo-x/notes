@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cameras,Lenses and Light Fields | 学习笔记</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/notes/avatar.png">
+    <meta name="description" content="学习不同知识，记录各种点滴">
+    
+    <link rel="preload" href="/notes/assets/css/0.styles.8fcc0579.css" as="style"><link rel="preload" href="/notes/assets/js/app.08cdebc2.js" as="script"><link rel="preload" href="/notes/assets/js/2.a5080860.js" as="script"><link rel="preload" href="/notes/assets/js/26.b859f5e3.js" as="script"><link rel="prefetch" href="/notes/assets/js/10.be75ce56.js"><link rel="prefetch" href="/notes/assets/js/11.e49ae3ed.js"><link rel="prefetch" href="/notes/assets/js/12.ca1175ea.js"><link rel="prefetch" href="/notes/assets/js/13.876e6307.js"><link rel="prefetch" href="/notes/assets/js/14.67fd5388.js"><link rel="prefetch" href="/notes/assets/js/15.52f8ad77.js"><link rel="prefetch" href="/notes/assets/js/16.effb6c82.js"><link rel="prefetch" href="/notes/assets/js/17.e4babfeb.js"><link rel="prefetch" href="/notes/assets/js/18.58c27e7e.js"><link rel="prefetch" href="/notes/assets/js/19.e3ef1d3b.js"><link rel="prefetch" href="/notes/assets/js/20.0c775263.js"><link rel="prefetch" href="/notes/assets/js/21.5e085ca6.js"><link rel="prefetch" href="/notes/assets/js/22.38e21830.js"><link rel="prefetch" href="/notes/assets/js/23.cd4fc012.js"><link rel="prefetch" href="/notes/assets/js/24.59227be1.js"><link rel="prefetch" href="/notes/assets/js/25.39af0132.js"><link rel="prefetch" href="/notes/assets/js/27.84fa36f0.js"><link rel="prefetch" href="/notes/assets/js/28.7de6c187.js"><link rel="prefetch" href="/notes/assets/js/29.58ef44bf.js"><link rel="prefetch" href="/notes/assets/js/3.04442e1b.js"><link rel="prefetch" href="/notes/assets/js/30.9b0ecc95.js"><link rel="prefetch" href="/notes/assets/js/31.752cbb99.js"><link rel="prefetch" href="/notes/assets/js/32.5be6e307.js"><link rel="prefetch" href="/notes/assets/js/33.577e792f.js"><link rel="prefetch" href="/notes/assets/js/4.ed1d74a5.js"><link rel="prefetch" href="/notes/assets/js/5.60285ec9.js"><link rel="prefetch" href="/notes/assets/js/6.815c5e87.js"><link rel="prefetch" href="/notes/assets/js/7.efd8b1b3.js"><link rel="prefetch" href="/notes/assets/js/8.e6bb093c.js"><link rel="prefetch" href="/notes/assets/js/9.7675b3e8.js">
+    <link rel="stylesheet" href="/notes/assets/css/0.styles.8fcc0579.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/notes/" class="home-link router-link-active"><img src="/notes/avatar.png" alt="学习笔记" class="logo"> <span class="site-name can-hide">学习笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/notes/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/pages/menu/menu.html" class="nav-link">
+  目录
+</a></li><li class="dropdown-item"><!----> <a href="/notes/pages/games101/介绍.html" class="nav-link">
+  Games101笔记
+</a></li><li class="dropdown-item"><!----> <a href="/notes/pages/elementui/工具类说明.html" class="nav-link">
+  elementui源码阅读
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/notes/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/notes/pages/menu/menu.html" class="nav-link">
+  目录
+</a></li><li class="dropdown-item"><!----> <a href="/notes/pages/games101/介绍.html" class="nav-link">
+  Games101笔记
+</a></li><li class="dropdown-item"><!----> <a href="/notes/pages/elementui/工具类说明.html" class="nav-link">
+  elementui源码阅读
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Games101</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/notes/pages/games101/介绍.html" class="sidebar-link">介绍</a></li><li><a href="/notes/pages/games101/第一讲.html" class="sidebar-link">第一讲</a></li><li><a href="/notes/pages/games101/第二讲.html" class="sidebar-link">第二讲</a></li><li><a href="/notes/pages/games101/第五讲.html" class="sidebar-link">第五讲</a></li><li><a href="/notes/pages/games101/第六讲.html" class="sidebar-link">第六讲</a></li><li><a href="/notes/pages/games101/第七讲.html" class="sidebar-link">第七讲</a></li><li><a href="/notes/pages/games101/第八讲.html" class="sidebar-link">第八讲</a></li><li><a href="/notes/pages/games101/第九讲.html" class="sidebar-link">第九讲</a></li><li><a href="/notes/pages/games101/第十讲.html" class="sidebar-link">第十讲</a></li><li><a href="/notes/pages/games101/第十一讲.html" class="sidebar-link">第十一讲</a></li><li><a href="/notes/pages/games101/第十二讲.html" class="sidebar-link">第十二讲</a></li><li><a href="/notes/pages/games101/第十三讲.html" class="sidebar-link">第十三讲</a></li><li><a href="/notes/pages/games101/第十四讲.html" class="sidebar-link">第十四讲</a></li><li><a href="/notes/pages/games101/第十五讲.html" class="sidebar-link">第十五讲</a></li><li><a href="/notes/pages/games101/第十六讲.html" class="sidebar-link">第十六讲</a></li><li><a href="/notes/pages/games101/第十七讲.html" class="sidebar-link">第十七讲</a></li><li><a href="/notes/pages/games101/第十八讲.html" class="sidebar-link">第十八讲</a></li><li><a href="/notes/pages/games101/第十九讲.html" class="active sidebar-link">第十九讲</a></li><li><a href="/notes/pages/games101/第二十讲.html" class="sidebar-link">第二十讲</a></li><li><a href="/notes/pages/games101/第二十一讲.html" class="sidebar-link">第二十一讲</a></li><li><a href="/notes/pages/games101/第二十二讲.html" class="sidebar-link">第二十二讲</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="cameras-lenses-and-light-fields"><a href="#cameras-lenses-and-light-fields" class="header-anchor">#</a> Cameras,Lenses and Light Fields</h1> <p>成像方法：光栅化，光线追踪</p> <p>Imaging = Synthesis + Capture
+光线捕捉
+照相机的原理：快门，传感器，FOV，曝光度</p> <p>运动模糊</p> <p>光场，下节课说</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/notes/pages/games101/第十八讲.html" class="prev">
+        第十八讲
+      </a></span> <span class="next"><a href="/notes/pages/games101/第二十讲.html">
+        第二十讲
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/notes/assets/js/app.08cdebc2.js" defer></script><script src="/notes/assets/js/2.a5080860.js" defer></script><script src="/notes/assets/js/26.b859f5e3.js" defer></script>
+  </body>
+</html>
